@@ -1,0 +1,141 @@
+html *{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: lemonchiffon;
+    margin: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+h1{
+    text-align: center;
+    color: green;
+    margin: 10px,20px;
+    padding: 10px 10px;
+   
+}
+
+.list li {
+    list-style: none; 
+    display: inline;
+    color: blueviolet;
+    margin-right: 30px;
+
+}
+
+.list a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.list a:hover {
+    color: pink;
+}
+.list ul {
+    background-image: url("image/menu-bg.png");
+    background-repeat: repeat-x;
+    padding: 30px 10px 10px 10px ;
+}
+
+li:hover {
+    color: pink;
+}
+
+.logo img{
+    background-repeat: repeat-x;
+}
+
+footer p {
+    text-align: center;
+    color: darkblue;
+}
+
+h2{
+    color: blueviolet;
+}
+
+p{
+    color:rgb(69, 27, 107);
+}
+
+/* abouthtml */
+.title {
+    font-size:18px;
+    color: darkcyan;
+    margin-top: 30px;
+}
+
+.news:hover{
+    color:pink;
+}
+
+.shop h2{
+    border-bottom: 1px dotted darkmagenta;
+}
+
+table th, table td {
+ border: solid 1px black;
+}
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+table th {
+    padding: 10px;
+    background-color: gainsboro;
+
+}
+
+table td {
+
+    text-align: center;
+}
+
+.about-image {
+    float:left;
+    margin: 40px;
+}
+
+/* menuhtml */
+.menu-item {
+    display: flex;
+    padding: 20px 8px;
+    border-bottom: 1px dashed #bec2c7;
+    height: auto;
+}
+
+.menu-photo{
+    margin-right: 16px;
+}
+
+/* contacthtml */
+
+form .form {
+    border-bottom: 1px dashed #bec2c7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#kind {
+    margin: 20px 0;
+    width: 500px;
+
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.text {
+    width: 500px;
+}
+
+textarea {
+    width: 500px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   　<title>WUBU & CHAKO CAFEへようこそ</title>
+     <meta chrset="utf-8">
+     <meta name="desciption" content="kujira cafe">
+     <link rel="stylesheet" href="styles.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1"
+    </head>
+    <body>
+    <div class="wrapper">
+<!-- 　　　　ヘッダー -->
+        <header class="header">
+            <h1 class="logo">WUBU & CHAKO CAFE</h1>
+            <div class="list">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="about.html">店舗案内</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                    <li><a href="menu.html">メニュー</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </div>
+           </header>
+           
+    
+   <!-- メイン -->
+           <main>
+               <h2>お問い合わせ</h2>
+               <form action="">
+                <div class="form">
+                  <label for="kind">お問い合わせの種類</label><br>
+                  <select name="kind" id="kind">
+                      <option value="reservation">予約</option>
+                      <option value="event">イベント</option>
+                      <option value="others">その他</option>
+                  </select>
+                </div>
+
+                <div class="form">
+                    ご来店いただいたことありますか。<br>
+                    <label for=""><input type="radio" value="yes" name="first" checked>Yes</label>
+                    <label for=""><input type="radio" value="no" name="first" checked>No</label>
+                </div>
+
+                <div class="form">
+                  カフェを知ったきっかけは<br>
+                  <label for=""><input type="checkbox">知り合いの紹介</label>
+                  <label for=""><input type="checkbox">雑誌</label>
+
+                </div>
+
+                <div class="form">
+                    問い合わせの件名<br>
+                    <input type="text" class="text">
+                </div>
+
+                <div class="form">
+                    具体的内容<br>
+                    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form">
+                    <input type="submit" value="送信">
+                </div>
+
+               </form>
+              
+           </main>
+         <!-- フッター           -->
+         <footer class="footer">
+             <img src="image/footer-bg.png" alt="">
+                 <p>&copy;Copyright All rights reserved.</p>
+         </footer>
+    </div>
+    </body>
+</html>
